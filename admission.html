@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ad.css">
+    <title>admisssion</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h2>Admission Form</h2>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select Course</option>
+                    <option value="bca">BCA</option>
+                    <option value="bscit">BSc IT</option>
+                    <option value="bsccs">BSc CS</option>
+                </select>
+        
+                <label for="payment">Payment Option:</label>
+                <input type="radio" id="online" name="payment" value="online" required>
+                <label for="online">Online</label>
+                <input type="radio" id="offline" name="payment" value="offline" required>
+                <label for="offline">Offline</label>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        </body>
+        </html>
+</body>
+</html>
